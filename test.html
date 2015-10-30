@@ -65,18 +65,105 @@
     <hr class="featurette-divider">
        <div class="row">
             
-        
-            <img class="featurette-image img-circle img-responsive" src="images.png">
-          
+            <div class="col-md-5">
+            <img class="featurette-image img-circle img-responsive pull-right" src="images.png">
+            </div>
 
             <div class="col-md-4">
-            <h2>Mar Senanin</h2>
-            <b>About: Web Expert / UI Expert</b><br> 
-            <b>Skills:<span class="label label-default">HTML</span> <span class="label label-default">CSS</span> <span class="label label-default">Jquery</span> <span class="label label-default">AJAX</span></b><br>
-            <b>Hobbies: Reading Eating</b><br>
-            <b>Rate: <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></b>
+                
+               
+              
+             
 
-            </div>
+                    
+                  
+      
+<ul id = "myTab" class = "nav nav-tabs">
+   <li class = "active">
+      <a href = "#Summary" data-toggle = "tab">
+         Summary <span class="glyphicon glyphicon-user"></span>
+      </a>
+   </li>
+  
+   <li><a href = "#Skills" data-toggle = "tab">Skills</span></a> </li>
+   <li><a href = "#Hobbies" data-toggle = "tab">Hobbies</a></li>
+   <li><a href = "#Rate" data-toggle = "tab">Rate </a></li>
+   
+ 
+    
+</ul>
+
+<div id = "myTabContent" class = "tab-content">
+
+   <div class = "tab-pane fade in active" id = "Summary">
+    
+      <h3>About Me</h3>
+      <b>lorem ipsum lorem ipppsum lorem ipsum lorem lorem ippsum</b></br>
+      <b></b><br>
+      <b>Rate: <span class="glyphicon glyphicon-star"></span><span class="glyphicon glyphicon-star"></span></b> 
+        
+  <!-- AddToAny BEGIN -->
+<div class="a2a_kit a2a_kit_size_32 a2a_default_style">
+<a class="a2a_dd" href="https://www.addtoany.com/share"></a>
+<a class="a2a_button_facebook"></a>
+<a class="a2a_button_twitter"></a>
+<a class="a2a_button_google_plus"></a>
+</div>
+<script type="text/javascript" src="//static.addtoany.com/menu/page.js"></script>
+<!-- AddToAny END -->
+
+
+   </div>
+   
+   <div class = "tab-pane fade" id = "Skills">
+    
+      <h3>Skills:</h3>
+      <b>Web Expert / UI Expert</b> <br>
+      <b><span class="label label-default">HTML</span> <span class="label label-default">CSS</span> <span class="label label-default">Jquery</span> <span class="label label-default">AJAX</span></b><br>
+   </div>
+   
+   <div class = "tab-pane fade" id = "Hobbies">
+    
+       <h3>Hobbies:</h3>
+       <b> Reading and Eating</b>
+   </div>
+   
+       <div class = "tab-pane fade" id = "Rate">
+             <h3>Rate:</h3>
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-success progress-bar-striped" role="progressbar"
+                          aria-valuenow="40" aria-valuemin="0"aria-valuemax="100" style="width:40%">
+                            40% Complete (success)
+                          </div>
+                        </div>
+
+                        <div class="progress">
+                          <div class="progress-bar progress-bar-info progress-bar-striped" role="progressbar"
+                          aria-valuenow="50"aria-valuemin="0" aria-valuemax="100" style="width:50%">
+                            50% Complete (info)
+                          </div>
+                        </div>
+
+                          <div class="progress">
+                          <div class="progress-bar progress-bar-alert progress-bar-striped" role="progressbar"
+                          aria-valuenow="70" aria-valuemin="0"aria-valuemax="100" style="width:70%">
+                            70% Complete (success)
+                          </div>
+                        </div>
+      </div>
+   </div>
+   
+</div>
+
+<script>
+   $(function () {
+      $('#myTab li:eq(1) a').tab('show');
+   });
+</script>
+                
+            </div><!-- end of col-md-4 -->
+
+        </div><!-- end of row -->
 
 
 
