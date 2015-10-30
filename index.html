@@ -9,8 +9,9 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>One Page Wonder - Start Bootstrap Template</title>
+    <title>Scammers Squad Goals</title>
 
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
@@ -28,6 +29,47 @@
 
 <body>
 
+<script>
+function changeImage1() {
+    var image = document.getElementById('myImage1');
+    if (image.src.match("dinn.jpg")) {
+        image.src = "louie.jpg";
+    } else {
+        image.src = "dinn.jpg";
+    }
+}
+</script>
+<script>
+function changeImage2() {
+    var image = document.getElementById('myImage2');
+    if (image.src.match("dinn.jpg")) {
+        image.src = "louie.jpg";
+    } else {
+        image.src = "dinn.jpg";
+    }
+}
+</script>
+<script>
+function changeImage3() {
+    var image = document.getElementById('myImage3');
+    if (image.src.match("louie.jpg")) {
+        image.src = "louie1.jpg";
+    } else {
+        image.src = "louie.jpg";
+    }
+}
+</script>
+<script>
+function changeImage4() {
+    var image = document.getElementById('myImage4');
+    if (image.src.match("dinn.jpg")) {
+        image.src = "louie.jpg";
+    } else {
+        image.src = "dinn.jpg";
+    }
+}
+</script>
+
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -39,19 +81,22 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Home</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
                     <li>
-                        <a href="#about">About</a>
+                        <a href="#Rongie">Rongie-san</a>
                     </li>
                     <li>
-                        <a href="#services">Services</a>
+                        <a href="#Mar">Mar-san</a>
                     </li>
                     <li>
-                        <a href="#contact">Contact</a>
+                        <a href="#Louie">Louie-san</a>
+                    </li>
+                     <li>
+                        <a href="#Dinn">Dinn-san</a>
                     </li>
                 </ul>
             </div>
@@ -64,8 +109,8 @@
     <header class="header-image">
         <div class="headline">
             <div class="container">
-                <h1>One Page Wonder</h1>
-                <h2>Will Knock Your Socks Off</h2>
+                <h1>Yazaki Hearthrobs</h1>
+                <h2>Meet the Kwanggols</h2>
             </div>
         </div>
     </header>
@@ -76,34 +121,50 @@
         <hr class="featurette-divider">
 
         <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">This First Heading
+        <div class="featurette" id="Rongie">
+            <img id="myImage" onclick="changeImage()" class="featurette-image img-circle img-responsive pull-right" src="rongie.jpg">
+            <h2 class="featurette-heading">Rongie Andrade
                 <span class="text-muted">Will Catch Your Eye</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Hi I'm Ronggie-san, blablabla</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
+<<<<<<< HEAD
+        <div class="featurette" id="Mar">
+            <img id="myImage" onclick="changeImage()" class="featurette-image img-circle img-responsive pull-left" src="mar.jpg">
+            <h2 class="featurette-heading">Joseph Leomar Senanin
+=======
         <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left" src="http://placehold.it/500x500">
-            <h2 class="featurette-heading">The Second Heading
+            <img class="featurette-image img-circle img-responsive pull-left" src="mar.jpg">
+            <a href ="test.html"><h2 class="featurette-heading">Joseph Leomar Senanin</a>
+>>>>>>> faa01b6e01b2826c600ab2bfc93dcc3be683e2e7
                 <span class="text-muted">Is Pretty Cool Too.</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Hello, I'm gay.</p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
-        <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+        <div class="featurette" id="Louie">
+            <img id="myImage3" onclick="changeImage3()" class="featurette-image img-circle img-responsive pull-right" src="louie.jpg">
+            <h2 class="featurette-heading">Camille Louie Olarte
+                <span class="text-muted">Too Good To Be True, Can't Take My Eyes Off Of You.</span>
+            </h2>
+            <p class="lead">MEET YOUR MAKER</p>
+        </div>
+
+         <hr class="featurette-divider">
+
+        <div class="featurette" id="Dinn">
+            <img id="myImage" onclick="changeImage()" class="featurette-image img-circle img-responsive pull-left" src="dinn.jpg">
             <h2 class="featurette-heading">The Third Heading
                 <span class="text-muted">Will Seal the Deal.</span>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead">Im Hotter than a Lava</p>
         </div>
 
         <hr class="featurette-divider">
